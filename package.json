@@ -1,0 +1,41 @@
+{
+  "name": "unified_and_webpack5",
+  "version": "1.0.0",
+  "description": "project to learn unified.",
+  "main": "./src/main.ts",
+  "scripts": {
+    "build:dev": "webpack --config webpack.dev.mjs",
+    "build:prod": "webpack --config webpack.prod.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ponju",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel": "^6.23.0",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.3",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "rehype-stringify": "^9.0.3",
+    "remark": "^14.0.2",
+    "remark-extract-frontmatter": "^3.2.0",
+    "remark-frontmatter": "^4.0.1",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "template-ejs-loader": "^0.9.4",
+    "terser-webpack-plugin": "^5.3.7",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "unified": "^10.1.2",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-merge": "^5.8.0",
+    "yaml": "^2.2.2"
+  }
+}
